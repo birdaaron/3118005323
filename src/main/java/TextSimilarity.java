@@ -29,6 +29,7 @@ public class TextSimilarity
         core.textSegment(articleB,1);
 
         createOutputFile(getSimilarity(core.calculateCos()));
+
     }
 
     /**
@@ -85,7 +86,7 @@ public class TextSimilarity
      * 创造输出文件
      * @param similarity 文章相似度
      */
-    private void createOutputFile(String similarity)
+    protected void createOutputFile(String similarity)
     {
         File outPutFile = new File(outputPath);
         try(FileOutputStream fos = new FileOutputStream(outPutFile);
@@ -103,7 +104,7 @@ public class TextSimilarity
     }
     public static void main(String[] args)
     {
-        TextSimilarity textSimilarity = new TextSimilarity(args[0], args[1],args[2]);
+        new TextSimilarity(args[0], args[1],args[2]);
     }
 
 }

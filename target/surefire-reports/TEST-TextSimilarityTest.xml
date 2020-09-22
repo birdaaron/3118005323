@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="2" name="TextSimilarityTest" time="0.205" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="TextSimilarityTest" time="0.578" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="10.0.1+10"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="d:\code\java\TextSimilarity"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\code\java\TextSimilarity"/>
     <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="d:\code\java\TextSimilarity"/>
+    <property name="user.dir" value="D:\code\java\TextSimilarity"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="10.0.1+10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -27,26 +27,27 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\sorftware\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="maven.ext.class.path" value="D:\sorftware\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\sorftware\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-10.0.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\msy2\mingw64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;E:\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\putty\;D:\sorftware\matlab\runtime\win64;D:\sorftware\matlab\bin;D:\sorftware\matlab\polyspace\bin;C:\Program Files\Git\cmd;D:\sorftware\quicktime\QTSystem\;D:\code\android\sdk\platform-tools;D:\sorftware\apache-maven-3.6.3\bin;C:\Users\大鸟先飞\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\大鸟先飞\AppData\Local\Programs\Python\Python37\;C:\Users\大鸟先飞\AppData\Local\Microsoft\WindowsApps;C:\Users\大鸟先飞\AppData\Local\GitHubDesktop\bin;C:\Users\大鸟先飞\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code Insiders\bin;D:\sshclient;D:\code\android\sdk\platform-tools;;."/>
-    <property name="maven.conf" value="D:\sorftware\apache-maven-3.6.3\bin\../conf"/>
+    <property name="maven.conf" value="D:\sorftware\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="54.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="idea.version2019.3.3" value="true"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="D:\sorftware\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\大鸟先飞"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="GBK"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="10"/>
     <property name="user.name" value="Sparks20"/>
-    <property name="java.class.path" value="D:\sorftware\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="D:\sorftware\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="10"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.3 package"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -54,90 +55,34 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="10.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="ms936"/>
-    <property name="maven.home" value="D:\sorftware\apache-maven-3.6.3\bin\.."/>
+    <property name="maven.home" value="D:\sorftware\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2018-04-17"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.3"/>
-    <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TextSimilarityTest" name="testArticleA" time="0.148">
-    <failure message="expected:&lt;[娲荤潃鍓嶈█]&gt; but was:&lt;[活着前言]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[娲荤潃鍓嶈█]&gt; but was:&lt;[活着前言]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at TextSimilarityTest.testArticleA(TextSimilarityTest.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</failure>
-  </testcase>
-  <testcase classname="TextSimilarityTest" name="testArticleB" time="0.057">
-    <failure message="expected:&lt;[鐨勬椿鐫�鍓嶈█]&gt; but was:&lt;[的活着前言]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[鐨勬椿鐫�鍓嶈█]&gt; but was:&lt;[的活着前言]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at TextSimilarityTest.testArticleB(TextSimilarityTest.java:25)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</failure>
-  </testcase>
+  <testcase classname="TextSimilarityTest" name="testArticleBFirstSentence[0]" time="0.1"/>
+  <testcase classname="TextSimilarityTest" name="testArticleAFirstSentence[0]" time="0.039"/>
+  <testcase classname="TextSimilarityTest" name="testFilterSentence[0]" time="0.04"/>
+  <testcase classname="TextSimilarityTest" name="testSimilarity[0]" time="0.029"/>
+  <testcase classname="TextSimilarityTest" name="testArticleBFirstSentence[1]" time="0.023"/>
+  <testcase classname="TextSimilarityTest" name="testArticleAFirstSentence[1]" time="0.021"/>
+  <testcase classname="TextSimilarityTest" name="testFilterSentence[1]" time="0.024"/>
+  <testcase classname="TextSimilarityTest" name="testSimilarity[1]" time="0.02"/>
+  <testcase classname="TextSimilarityTest" name="testArticleBFirstSentence[2]" time="0.036"/>
+  <testcase classname="TextSimilarityTest" name="testArticleAFirstSentence[2]" time="0.016"/>
+  <testcase classname="TextSimilarityTest" name="testFilterSentence[2]" time="0.015"/>
+  <testcase classname="TextSimilarityTest" name="testSimilarity[2]" time="0.017"/>
+  <testcase classname="TextSimilarityTest" name="testArticleBFirstSentence[3]" time="0.021"/>
+  <testcase classname="TextSimilarityTest" name="testArticleAFirstSentence[3]" time="0.021"/>
+  <testcase classname="TextSimilarityTest" name="testFilterSentence[3]" time="0.021"/>
+  <testcase classname="TextSimilarityTest" name="testSimilarity[3]" time="0.022"/>
+  <testcase classname="TextSimilarityTest" name="testArticleBFirstSentence[4]" time="0.022"/>
+  <testcase classname="TextSimilarityTest" name="testArticleAFirstSentence[4]" time="0.023"/>
+  <testcase classname="TextSimilarityTest" name="testFilterSentence[4]" time="0.029"/>
+  <testcase classname="TextSimilarityTest" name="testSimilarity[4]" time="0.039"/>
 </testsuite>

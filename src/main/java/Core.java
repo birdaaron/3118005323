@@ -93,4 +93,8 @@ public class Core
         sqrt2 = Math.sqrt(num2);
         return sqrt1*sqrt2;
     }
+    public void finish()
+    {
+        wordMap = null;
+    }
 }
