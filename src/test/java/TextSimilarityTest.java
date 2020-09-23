@@ -4,6 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collection;
@@ -48,6 +49,7 @@ public class TextSimilarityTest
     {
         assertNotEquals(0,ts.articleA.size());
         assertEquals("活着前言",ts.articleA.get(0));
+
     }
     @Test
     public void testArticleBFirstSentence()
@@ -75,4 +77,5 @@ public class TextSimilarityTest
         File file = new File(this.outputPath);
         assertTrue(file.exists());
     }
+
 }

@@ -24,6 +24,7 @@ public class Core
         List<SegToken> segTokenList;
         for(String sentence : article)
         {
+            //分词得到List<SegToken>,可通过 SegToken.word得到分词
             segTokenList = segmenter.process(sentence, JiebaSegmenter.SegMode.INDEX);
             putWordIntoMap(segTokenList,index);
         }

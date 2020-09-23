@@ -3,6 +3,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class TextSimilarity
 {
@@ -11,8 +12,7 @@ public class TextSimilarity
     private String pathA;//源文章目录
     private String pathB;//对比文章目录
     private String outputPath;//输出文件目录
-
-
+    private static final Logger logger = Logger.getLogger("TextSimilarity.class");
     public TextSimilarity(String pathA,String pathB,String outputPath)
     {
         articleA = new ArrayList<>();
@@ -47,7 +47,7 @@ public class TextSimilarity
             while((line=br.readLine())!=null)
             {
                 line = filterSentence(line);
-                if(!line.isEmpty())
+                if(!line.isEmpty()) //过滤空格后如果!isEmpty()说明不是空行，可以添加进list
                 {
                     list.add(line);
                 }
@@ -77,6 +77,7 @@ public class TextSimilarity
      */
     public String getSimilarity(Double cos)
     {
+
         return "0"+ new DecimalFormat("#.0000")
                 .format(cos)
                 .substring(0,3);
